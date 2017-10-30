@@ -1,0 +1,33 @@
+RID_USB_OTG_MODE,	/* 0 0 0 0 0 	GND 		USB OTG Mode              */
+RID_AUD_SEND_END_BTN,	/* 0 0 0 0 1 	2K		Audio Send_End Button*/
+RID_AUD_REMOTE_S1_BTN,	/* 0 0 0 1 0 	2.604K		Audio Remote S1 Button */
+RID_AUD_REMOTE_S2_BTN,	/* 0 0 0 1 1 	3.208K		Audio Remote S2 Button                         */
+RID_AUD_REMOTE_S3_BTN,	/* 0 0 1 0 0 	4.014K		Audio Remote S3 Button */
+RID_AUD_REMOTE_S4_BTN,	/* 0 0 1 0 1 	4.82K		Audio Remote S4 Button */
+RID_AUD_REMOTE_S5_BTN,	/* 0 0 1 1 0 	6.03K		Audio Remote S5 Button */
+RID_AUD_REMOTE_S6_BTN,	/* 0 0 1 1 1 	8.03K		Audio Remote S6 Button */
+RID_AUD_REMOTE_S7_BTN,	/* 0 1 0 0 0 	10.03K		Audio Remote S7 Button */
+RID_AUD_REMOTE_S8_BTN,	/* 0 1 0 0 1 	12.03K		Audio Remote S8 Button */
+RID_AUD_REMOTE_S9_BTN,	/* 0 1 0 1 0 	14.46K		Audio Remote S9 Button */
+RID_AUD_REMOTE_S10_BTN,	/* 0 1 0 1 1 	17.26K		Audio Remote S10 Button */
+RID_AUD_REMOTE_S11_BTN,	/* 0 1 1 0 0 	20.5K		Audio Remote S11 Button */
+RID_AUD_REMOTE_S12_BTN,	/* 0 1 1 0 1 	24.07K		Audio Remote S12 Button */
+RID_RESERVED_1,		/* 0 1 1 1 0 	28.7K		Reserved Accessory #1 */
+RID_RESERVED_2,		/* 0 1 1 1 1 	34K 		Reserved Accessory #2 */
+RID_RESERVED_3,		/* 1 0 0 0 0 	40.2K		Reserved Accessory #3 */
+RID_RESERVED_4,		/* 1 0 0 0 1 	49.9K		Reserved Accessory #4 */
+RID_RESERVED_5,		/* 1 0 0 1 0 	64.9K		Reserved Accessory #5 */
+RID_AUD_DEV_TY_2,	/* 1 0 0 1 1 	80.07K		Audio Device Type 2 */
+RID_PHONE_PWD_DEV,	/* 1 0 1 0 0 	102K		Phone Powered Device */
+RID_TTY_CONVERTER,	/* 1 0 1 0 1 	121K		TTY Converter */
+RID_UART_CABLE,		/* 1 0 1 1 0 	150K		UART Cable */
+RID_CEA936A_TY_1,	/* 1 0 1 1 1 	200K		CEA936A Type-1 Charger(1) */
+RID_FM_BOOT_OFF_USB,	/* 1 1 0 0 0 	255K		Factory Mode Boot OFF-USB */
+RID_FM_BOOT_ON_USB,	/* 1 1 0 0 1 	301K		Factory Mode Boot ON-USB */
+RID_AUD_VDO_CABLE,	/* 1 1 0 1 0 	365K		Audio/Video Cable */
+RID_CEA936A_TY_2,	/* 1 1 0 1 1 	442K		CEA936A Type-2 Charger(1) */
+RID_FM_BOOT_OFF_UART,	/* 1 1 1 0 0 	523K		Factory Mode Boot OFF-UART */
+RID_FM_BOOT_ON_UART,	/* 1 1 1 0 1 	619K		Factory Mode Boot ON-UART */
+RID_AUD_DEV_TY_1_REMOTE,	/* 1 1 1 1 0 	1000.07K	Audio Device Type 1 with Remote(1) */
+RID_AUD_DEV_TY_1_SEND = RID_AUD_DEV_TY_1_REMOTE ,		/* 1 1 1 1 0 	1002K		Audio Device Type 1 / Only Send-End(2) */
+RID_USB_MODE,		/* 1 1 1 1 1 	Open		USB Mode, Dedicated Charger or Accessory Detach */
