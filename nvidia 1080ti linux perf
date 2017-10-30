@@ -1,0 +1,7 @@
+X :1 &
+env DISPLAY=:1
+nvidia-smi -acp 0
+nvidia-settings -a GPUPowerMizerMode=1
+nvidia-settings -a GPUFanControlState=1
+nvidia-settings -a GPUTargetFanSpeed=80
+nvidia-settings -a GPUGraphicsClockOffset[3]=200
