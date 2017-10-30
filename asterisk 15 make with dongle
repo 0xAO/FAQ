@@ -1,0 +1,3 @@
+need uuid-dev libjansson-dev libxml2-dev libsqlite3-dev
+./configure --prefix=/opt/asterisk --with-crypto --with-ssl=ssl --with-srtp
+chain dongle github: https://github.com/wdoekes/asterisk-chan-dongle
